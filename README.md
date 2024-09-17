@@ -32,10 +32,11 @@ This project is licensed under the MIT License.
 ## Branching Strategy
 Use Git branches to manage development:
 
-main: Stable, production-ready code.
-develop: Latest development code.
-feature/*: Individual features or modules.
-Documentation
+-main: Stable, production-ready code.
+-develop: Latest development code.
+-feature/*: Individual features or modules.
+
+## Documentation
 Update the docs/ directory with detailed installation and usage instructions as you develop the project.
 
 ## Testing
