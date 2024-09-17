@@ -29,3 +29,23 @@ Instructions on how to use the dashboard.
 
 This project is licensed under the MIT License.
 
+## Branching Strategy
+Use Git branches to manage development:
+
+main: Stable, production-ready code.
+develop: Latest development code.
+feature/*: Individual features or modules.
+Documentation
+Update the docs/ directory with detailed installation and usage instructions as you develop the project.
+
+## Testing
+Implement unit tests in the tests/ directory and run them regularly to ensure code quality. 
+
+
+## Formatting 
+- Write docstrings in the [numpy style ](https://peps.python.org/pep-0008/) 
+- Format with [black](https://black.readthedocs.io/en/stable/index.html)
+- Sort imports with [isort](https://pypi.org/project/isort/)
+- add type annotations and check with [pright](https://github.com/microsoft/pyright)
+
+
